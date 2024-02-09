@@ -20,24 +20,23 @@ export default function RootLayout({
         <Header />
         {children}
         <Footer />
-        </body>
+      </body>
     </html>
   );
 }
 
-
-function Header(){
+function Header() {
   return (
     <header>
       <h1>Smile Chiropractic</h1>
     </header>
-  )
+  );
 }
 
-function Footer(){
+function Footer() {
   return (
     <footer>
       <p>Smile Chiropractic</p>
     </footer>
-  )
+  );
 }
