@@ -24,6 +24,11 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+
+  /* Ensure <main> pushes <footer> to bottom */
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100svh;
 }
 
 @layer utilities {
